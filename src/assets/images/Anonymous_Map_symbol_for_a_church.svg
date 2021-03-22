@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 29.37 65.845" version="1.0" y="0" x="0">
+  <g id="layer1" transform="translate(9.3079e-8 .23118)">
+    <path id="path1291" d="m12.788-0.23118v11.765h-12.788l-9.3079e-8 3.795h12.788v21.1c-7.195 0.934-12.763 7.079-12.763 14.527-0.00006 8.092 6.5664 14.658 14.658 14.658 8.092 0 14.662-6.566 14.662-14.658 0-7.447-5.569-13.592-12.763-14.527v-21.1h12.788v-3.795h-12.788v-11.765l-3.794-0.00018zm1.895 40.273c6.024 0 10.914 4.89 10.914 10.914s-4.89 10.913-10.914 10.913c-6.0237 0-10.91-4.889-10.91-10.913 0.0003-6.024 4.8863-10.914 10.91-10.914z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Map symbol for a church</dc:title>
+        <dc:date>2009-05-07T09:04:07</dc:date>
+        <dc:description>Church map-symbol by Jesper Zedlitz. An image from OCAL 0.18 release.</dc:description>
+        <dc:source>http://openclipart.org/detail/25833/map-symbol-for-a-church-by-anonymous-25833</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>black and white</rdf:li>
+            <rdf:li>cartography</rdf:li>
+            <rdf:li>church</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>map</rdf:li>
+            <rdf:li>map symbol</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
