@@ -13,12 +13,14 @@ class App extends Component {
           curve: "smooth",
           width: 1,
         },
+        legend: {
+          show: false
+        },
         dataLabels: {
           enabled: false
         },
         markers: {
-          size: 3,
-          strokeColors: MAIN_COLOR,
+          show: false
         },
         xaxis: {
           categories: ["August", 1, 5, 10, 15, 20, 25],
