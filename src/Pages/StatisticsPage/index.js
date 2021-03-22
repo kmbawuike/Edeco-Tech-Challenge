@@ -1,7 +1,6 @@
 import {
     Container,
     Grid,
-    makeStyles,
     Paper,
     Button,
     Typography,
@@ -14,10 +13,6 @@ import {
   import StatCard from "../../components/StatCard";
   import {
     GREY,
-    MAIN_COLOR,
-    WHITE,
-    LIGHT_GREEN,
-    DARK_GREEN,
   } from "../../utility/color";
   import ContainerWrapper from "../../components/ContainerWrapper";
   import ProductsTable from "../../components/ProductsTable";

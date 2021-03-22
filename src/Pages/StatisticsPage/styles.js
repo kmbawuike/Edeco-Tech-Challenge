@@ -1,8 +1,6 @@
 import {
-    GREY,
     MAIN_COLOR,
     WHITE,
-    LIGHT_GREEN,
     DARK_GREEN,
   } from "../../utility/color";
   import {makeStyles} from '@material-ui/core'

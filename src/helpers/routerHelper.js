@@ -4,7 +4,7 @@ export function getCurrentUrl(location) {
 
 export function checkIsActive(location, url) {
     const current = getCurrentUrl(location);
-    if (url == current) {
+    if (url === current) {
         return true;
       }
       return false;

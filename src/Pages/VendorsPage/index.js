@@ -125,8 +125,8 @@ export default function VendorsPage() {
         <ContainerWrapper elevation={0} marginTop={1}>
           <div className={classes.products}>
             {dummy.map((item, index) => (
-              <>
-                <div key={index} className={classes.product}>
+              <div className={classes.product} key={index}>
+                <div>
                   <ContainerWrapper marginTop={0} background={GREY}>
                     <div
                       className={classes.productItem}
@@ -135,7 +135,7 @@ export default function VendorsPage() {
                       onMouseEnter={handlePopoverOpen}
                       onMouseLeave={handlePopoverClose}
                     >
-                      <img src={index == 2 ? Book2 : Book1} alt="" />
+                      <img src={index === 2 ? Book2 : Book1} alt="" />
                     </div>
                     <div className={classes.productItemContent}>
                       <Typography
@@ -146,7 +146,7 @@ export default function VendorsPage() {
                             index !== 1
                               ? "fas fa-chalkboard"
                               : "fas fa-shopping-basket",
-                            index == 1
+                            index === 1
                               ? classes.dangerText
                               : classes.successText,
                             classes.mediumProductText,
@@ -217,7 +217,7 @@ export default function VendorsPage() {
                 >
                   <Typography className={classes.mediumProductText}>View Product Details</Typography>
                 </Popover>
-              </>
+              </div>
             ))}
           </div>
         </ContainerWrapper>

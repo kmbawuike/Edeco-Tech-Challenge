@@ -2,7 +2,6 @@ import {
   Chip,
   makeStyles,
   Paper,
-  StepContent,
   Typography,
 } from "@material-ui/core";
 import React from "react";

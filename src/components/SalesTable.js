@@ -6,8 +6,7 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
-import Paper from "@material-ui/core/Paper";
-import { BLACK, LIGHT_GREEN, MAIN_COLOR, WHITE } from "../utility/color";
+import { BLACK, LIGHT_GREEN, WHITE } from "../utility/color";
 import clsx from "clsx";
 
 const useStyles = makeStyles({
@@ -62,7 +61,7 @@ const rows = [
 ];
 
 const checkEven = (num) => {
-  return num % 2 == 0;
+  return num % 2 === 0;
 };
 export default function CustomTable() {
   const classes = useStyles();

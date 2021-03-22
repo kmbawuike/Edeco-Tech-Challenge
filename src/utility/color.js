@@ -1,5 +1,3 @@
-import lightGreen from "@material-ui/core/colors/lightGreen";
-import grey from "@material-ui/core/colors/green";
 import { red } from "@material-ui/core/colors";
 export const WHITE = "#ffffff";
 export const MAIN_COLOR = "#42a439";

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
 import { MAIN_COLOR } from "../utility/color";
-import {Button} from "@material-ui/core"
 
 class App extends Component {
   constructor(props) {

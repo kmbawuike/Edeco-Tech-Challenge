@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import ListSubheader from "@material-ui/core/ListSubheader";
 import DashboardIcon from "@material-ui/icons/Dashboard";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import PeopleIcon from "@material-ui/icons/People";
@@ -11,9 +10,9 @@ import logo from "../assets/images/main_logo.png";
 import { makeStyles } from "@material-ui/core/styles";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router";
-import { checkIsActive, getCurrentUrl } from "../helpers/routerHelper";
+import { checkIsActive } from "../helpers/routerHelper";
 import clsx from "clsx";
-import { BLACK, MAIN_COLOR, WHITE } from "../utility/color";
+import { BLACK, WHITE } from "../utility/color";
 
 const useStyles = makeStyles((theme) => ({
   listItem: {
