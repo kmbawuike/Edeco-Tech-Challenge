@@ -3,9 +3,11 @@ import useStyles from "./styles";
 import ContainerWrapper from "../../components/ContainerWrapper";
 import { GREY } from "../../utility/color";
 import clsx from "clsx";
-import { Container, Typography, Grid, Icon, Popover } from "@material-ui/core";
+import { Container, Typography, Grid, Icon, Popover, Button } from "@material-ui/core";
 import Book1 from "../../assets/images/book-1.PNG";
 import Book2 from "../../assets//images/book-2-removebg-preview.png";
+import PaystackPaymentPopUp from '../../components/PaystackPaymemtPopUp'
+
 export default function VendorsPage() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -19,6 +21,8 @@ export default function VendorsPage() {
   };
 
   const open = Boolean(anchorEl);
+
+
   return (
     <div>
       <ContainerWrapper background={GREY} marginTop={3}>
@@ -179,7 +183,7 @@ export default function VendorsPage() {
                           classes.largeProductText
                         )}
                       >
-                        250€
+                        {'₦' + item.price}
                       </Typography>
                       <Typography
                         variant="button"
@@ -191,6 +195,7 @@ export default function VendorsPage() {
                       >
                         View Upsell Product
                       </Typography>
+                      <PaystackPaymentPopUp price={item.price}/>
                     </div>
                   </ContainerWrapper>
                 </div>
@@ -222,6 +227,7 @@ export default function VendorsPage() {
           </div>
         </ContainerWrapper>
       </ContainerWrapper>
+    
     </div>
   );
 }
@@ -230,19 +236,19 @@ const dummy = [
   {
     title: "Digital Product",
     description: "Branding Strategy Vol1",
-    price: "250€",
+    price: 3000,
     action: "View Upsell Product",
   },
   {
     title: "Physical Product",
     description: "Marketing Tips Vol1",
-    price: "250€",
+    price: 4000,
     action: "View Upsell Product",
   },
   {
     title: "Digital Product",
     description: "Marketing Tips Vol2",
-    price: "250€",
+    price: 2500,
     action: "View Upsell Product",
   },
 ];

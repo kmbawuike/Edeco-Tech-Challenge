@@ -43,12 +43,7 @@ const MainListItems = () => {
   const location = useLocation();
   const activeMenu = (url) => {
     return checkIsActive(location, url)
-    // if (url == location.pathname) {
-    //   console.log(true)
-    //   return true;
-    // }
-    // console.log(false)
-    // return false;
+   
   };
 
   const classes = useStyles();
