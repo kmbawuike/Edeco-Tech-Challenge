@@ -3,7 +3,7 @@ import useStyles from "./styles";
 import ContainerWrapper from "../../components/ContainerWrapper";
 import { GREY } from "../../utility/color";
 import clsx from "clsx";
-import { Container, Typography, Grid, Icon, Popover, Button } from "@material-ui/core";
+import { Container, Typography, Grid, Icon, Popover } from "@material-ui/core";
 import Book1 from "../../assets/images/book-1.PNG";
 import Book2 from "../../assets//images/book-2-removebg-preview.png";
 import PaystackPaymentPopUp from '../../components/PaystackPaymemtPopUp'
