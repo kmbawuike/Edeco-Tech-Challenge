@@ -5,12 +5,11 @@ import {Button} from '@material-ui/core'
 
 
 const PaystackPaymentPopUp = ({price}) => {
-
   const config = {
     reference: new Date().getTime(),
     email: "kmbawuike@gmail.com",
     amount: price * 100,
-    publicKey: "pk_test_001ce9e4e5a636f5fecf0e8ad88452bc43ce2e68",
+    publicKey: process.env.REACT_APP_PAYSTACK_PUBLIC_KEY,
     label: 'Afri Stiches',
     metadata: {
         item: 'Book'
